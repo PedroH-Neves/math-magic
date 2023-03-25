@@ -1,5 +1,5 @@
 #calculator {
-  margin: 10% 30%;
+  margin: 15% 40%;
 }
 
 #calculator-display {
@@ -16,6 +16,15 @@
 
 #zero {
   grid-column: 1/3;
+}
+
+.display {
+  background-color: gray;
+  padding: 1%;
+}
+
+.button {
+  border: 1px solid gray;
 }
 
 /* GLOBAL */
