@@ -49,9 +49,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Magic Calc <a name="about-project"></a>
+# 📖 Math Magicians <a name="about-project"></a>
 
-**Magic Calc** is a website that you can solve math problems.
+**Math Magicians** is a website that you can solve math problems.
 
 ## 🛠 Built With <a name="built-with"></a>
 -webpack
@@ -106,9 +106,9 @@ Clone this repository to your desired folder:
 
 - Open editor terminal
 
-- Digit "git clone https://github.com/PedroH-Neves/magic-calc.git"
+- Digit "git clone https://github.com/PedroH-Neves/math-magicians.git"
 
-- Then "cd magic-calc"
+- Then "cd math-magicians"
 
 - File editing can then be applied using any code editor.
 
@@ -173,7 +173,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/PedroH-Neves/magic-calc/issues).
+Feel free to check the [issues page](https://github.com/PedroH-Neves/math-magicians/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
