@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 import Display from './Display';
+import Quote from './Quote';
 
 const Calculator = () => {
   const [state, setState] = useState({
@@ -19,6 +20,11 @@ const Calculator = () => {
 
   return (
     <div>
+      <div className="calculator-title">
+        <p>
+          <Quote />
+        </p>
+      </div>
       <div id="calculator">
         <div>
           <Display
