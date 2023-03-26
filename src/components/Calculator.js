@@ -20,11 +20,6 @@ const Calculator = () => {
 
   return (
     <div>
-      <div className="calculator-title">
-        <p>
-          <Quote />
-        </p>
-      </div>
       <div id="calculator">
         <div>
           <Display
