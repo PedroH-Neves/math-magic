@@ -1,25 +1,31 @@
 import React, { useState, useEffect } from 'react';
 
 const Quote = () => {
+  const url = 'https://api.api-ninjas.com/v1/quotes';
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(false);
   const [quote, setQuote] = useState({
     quote: '',
     author: '',
     category: '',
   });
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(false);
-  const url = 'https://api.api-ninjas.com/v1/quotes';
+
+  const header = {
+    headers: {
+      'X-Api-Key': '8Mf07BcfVhJr93elGCb1FA==VeSw7iVph46oXoru',
+    },
+  };
+
+  const get = async () => {
+    const response = await fetch(url, header);
+    const data = await response.json();
+    return data;
+  };
 
   useEffect(() => {
     const result = async () => {
       try {
-        const getQuote = await fetch(url, {
-          method: 'GET',
-          headers: {
-            'Content-Type': 'application/json',
-            'x-api-key': '8Mf07BcfVhJr93elGCb1FA==VeSw7iVph46oXoru',
-          },
-        });
+        const getQuote = await get();
         setQuote(...getQuote);
         setLoading(false);
       } catch (error) {
