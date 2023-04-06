@@ -1,0 +1,27 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 20px 80px;
+}
+
+.navBar-title {
+  font-size: 46px;
+}
+
+.navBar-ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  font-size: 20px;
+}
+
+.navBar-item {
+  border-right: 1px solid black;
+  padding-right: 10px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: black;
+}
